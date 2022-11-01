@@ -20,18 +20,19 @@ console.log(people[1]);
 const person = {firstName:"Alisa", lastName:"Kotler", age:39};
 console.log(person.firstName);
 
-// Home Work //
+Home Work //
 const person = {
     firstName:"Alisa",
     lastName:"Kotliarski",
     age:39,
     carName:"Suzuki",
-    birthDay:"08/03/1983",
-    fullName:function() {return this.firstName + " " + this.lastName + " " + this.birthDay;}
+    birthDay: new Date(1983, 02, 08),
+    fullName:function() {return this.firstName + " " + this.lastName;}
 };
 console.log(person.fullName());
+console.log(person);
 
-let birthDay = "08/03/1983";
+let birthDay = new Date(year=1983, month=03, day=08);
 console.log(birthDay);
 
 
