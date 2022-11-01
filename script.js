@@ -26,20 +26,20 @@ const person = {
     lastName:"Kotliarski",
     age:39,
     carName:"Suzuki",
-    birthDay: new Date(1983, 02, 08),
+    birthDay: new Date(1983, 02, 09),
     fullName:function() {return this.firstName + " " + this.lastName;}
 };
 console.log(person.fullName());
 console.log(person);
 
-let birthDay = new Date(year=1983, month=03, day=08);
+let birthDay = new Date(1983, 02, 09);
 console.log(birthDay);
 
 
-const date = new Date(year=2022, month=10, day=01, hours=11, minutes=21);
+const date = new Date(2022, 10, 01, 11, 21);
 console.log(date);
 
-const date = new Date(year=2022, month=10, day=35, hours=11, minutes=21);
+const date = new Date(2022, 10, 35, 11, 21);
 console.log(date);
 
 
